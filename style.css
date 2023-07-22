@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+:root{
+    --primary-color: #f60f20;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* BASE STYLE */
 html, body{
     font-family: 'Poppins', sans-serif;
     color: #111;
@@ -29,12 +36,18 @@ section{
 }
 
 .btn {
-    background: #f60f20;
+    display: inline-block;
+    cursor: pointer;
+    background: var(--primary-color);
     color: white;
     text-decoration: none;
     padding: 10px 30px;
     margin: 20px 0;
 
+}
+
+.btn:hover {
+    transform: scale(0.95);
 }
 
 .logo {
@@ -46,6 +59,30 @@ section{
     z-index: 10;
 }
 
+/* TOGGLE */
+.toggle{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background: var(--primary-color) url(images/menu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;    
+    z-index: 20;
+    cursor: pointer;
+}
+
+
+
+/* NAVIGATION */
+.navigation{
+    display: none;
+}
+
+
+/* HOME_PAGE */
 .home-content{
     position: relative;
     z-index: 10;
@@ -60,6 +97,4 @@ section{
 
 }
 
-.navigation{
-    display: none;
-}
+
