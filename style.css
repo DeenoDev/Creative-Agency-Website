@@ -43,6 +43,7 @@ section{
     text-decoration: none;
     padding: 10px 30px;
     margin: 20px 0;
+    border: 0;
 
 }
 
@@ -74,11 +75,24 @@ section{
     cursor: pointer;
 }
 
+.toggle.active{
+    background: var(--primary-color) url(images/close.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
 
 
 /* NAVIGATION */
 .navigation{
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 100%;
+}
+
+.navigation.active{
+    left: 0;
 }
 
 
