@@ -216,6 +216,7 @@ section.home {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .portfolio .item {
@@ -287,6 +288,10 @@ section.home {
 @media(max-width: 768px){
     .services{
         grid-template-columns: 1fr;
+    }
+
+    .services .service{
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 }
 
