@@ -231,6 +231,10 @@ section.home {
     .navigation ul li a {
         font-size: 2rem;
     }
+
+    .services{
+        grid-template-columns: repeat(2, 1fr);  
+    }
 }
 
 
