@@ -241,6 +241,21 @@ section.home {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.portfolio .item .action a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+}
+
+.portfolio .item:hover .action{
+    opacity: 1;
+
 }
 
 
