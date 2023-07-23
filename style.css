@@ -188,6 +188,29 @@ section.home {
     text-align: center;
 }
 
+.services .service {
+    padding: 30px;
+
+}
+
+.services .service h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #1b206e;
+}
+
+.services .service:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.services .service .icon img{
+    max-width: 100px;
+
+}
+
 
 
 @media (max-width: 1068px) {
