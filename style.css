@@ -277,6 +277,29 @@ section.home {
     padding: 60px 40px 20px;
 }
 
+.contact-form form{
+    width: 100%;
+
+}
+
+.contact-form .row{
+    width: 100%;
+    display: flex;
+    
+}
+
+.contact-form .input50{
+    width: 50%;
+    margin: 0 10px;
+}
+
+.contact-form .input100{
+    width: 100%;
+    margin: 0 10px;
+}
+
+
+
 
 
 @media (max-width: 1068px) {
