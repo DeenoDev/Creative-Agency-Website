@@ -317,6 +317,9 @@ section.home {
   .contact-form .row input[type="submit"]{
     background-color: #1b206e;
     color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 0;
 
   }
 
