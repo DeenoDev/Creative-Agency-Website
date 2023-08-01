@@ -319,7 +319,9 @@ section.home {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-weight: 300;
     border: 0;
+    cursor: pointer;
 
   }
 
