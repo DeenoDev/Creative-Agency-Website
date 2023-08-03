@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #f60f20;
+    --secondary-color: #1b206e;
 }
 
 
@@ -197,7 +198,7 @@ section.home {
     font-size: 24px;
     font-weight: 500;
     margin-top: 20px;
-    color: #1b206e;
+    color: var(--secondary-color);
 }
 
 .services .service:hover{
@@ -315,7 +316,7 @@ section.home {
   }
 
   .contact-form .row input[type="submit"]{
-    background-color: #1b206e;
+    background-color: var(--secondary-color);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -343,6 +344,16 @@ section.home {
     margin-right: 40px;
   }
 
+  .contact-info .info-box .details h4{
+    color: var(--secondary-color);
+  }
+
+  .contact-info .info-box .details p,
+  .contact-info .info-box .details a{
+    color: #111;
+
+  }
+
 
 
 
@@ -367,6 +378,25 @@ section.home {
 
     .services{
         grid-template-columns: repeat(2, 1fr);  
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-form{
+        width: 100%;
+        padding: 30px 30px 20px;
+    }
+
+    .contact-form .row {
+        flex-direction: column;
+    }
+
+    .contact-form .input50,
+    .contact-form .input100 {
+        width: 100%;
+        margin: 0;
     }
 }
 
