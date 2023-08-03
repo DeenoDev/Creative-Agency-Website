@@ -331,6 +331,20 @@ section.home {
     padding: 60px 40px 20px;
   }
 
+  .contact-info .info-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    
+  }
+
+  .contact-info .info-box .contact-icon{
+    width: 20px;
+    margin-right: 40px;
+  }
+
+
+
 
 @media (max-width: 1068px) {
     .home-img{
